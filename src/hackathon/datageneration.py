@@ -7,7 +7,7 @@ from google import genai
 from google.genai import types
 
 # 1. API Key (Ensure your key is inside the quotes)
-client = genai.Client(api_key="AIzaSyAhoIyCxP-5vtfGf8DKXQj2FxXI2T_sWy8")
+client = genai.Client(api_key="[ENCRYPTION_KEY]")
 
 categories = [
     "Diabetes", "Arthritis", "COPD/Respiratory", 
