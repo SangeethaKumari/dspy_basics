@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Local settings
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# UV / Project specific
+uv.lock
+.python-version
+
+# Data and Artifacts (optional, but recommended for large datasets)
+category_batches/
+category_batches_april6/
+hackathon_final_200_april6.csv
+*.csv
+!hackathon_final__nurse_style.csv # keeping specifically this if it's original
